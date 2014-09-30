@@ -20,7 +20,7 @@ there are three ways of doing it.
 
 There are 3 choice:
 
-1. Remove the const modifier of param:
+ Remove the const modifier of param:
 
 #+BEGIN_SRC c
 void test(char *str) {
@@ -28,7 +28,7 @@ void test(char *str) {
 }
 #+END_SRC
 
-2. Declare the target variable also as const:
+ Declare the target variable also as const:
 
 #+BEGIN_SRC 
 void test(const char *str) {
@@ -36,7 +36,7 @@ void test(const char *str) {
 }
 #+END_SRC
 
-3. Use a type convert:
+ Use a type convert:
 
 #+BEGIN_SRC 
 
